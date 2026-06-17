@@ -1,0 +1,40 @@
+[
+    {
+        "xtype": "textfield",
+        "fieldLabel": "#Name",
+        "name": "name",
+        "maxLength": 255,
+        "anchor": "100%",
+        "allowBlank": false
+    },
+    {
+        "xtype": "textfield",
+        "fieldLabel": "#Component ID",
+        "name": "componentId",
+        "maxLength": 100,
+        "anchor": "100%",
+        "allowBlank": false
+    },
+    {
+        "xtype": "combobox",
+        "fieldLabel": "#Component type",
+        "name": "componentType",
+        "hiddenName": "componentType",
+        "store": {
+            "fields": ["id", "name"],
+            "data": [
+                {"id": "module", "name": "#Module"},
+                {"id": "extension", "name": "#Extension"},
+                {"id": "widget", "name": "#Widget"},
+                {"id": "plugin", "name": "#Plugin"}
+            ]
+        },
+        "forceSelection": false,
+        "displayField": "name",
+        "valueField": "id",
+        "queryMode": "local",
+        "width": 370,
+        "editable": false,
+        "allowBlank": false
+    }
+]
