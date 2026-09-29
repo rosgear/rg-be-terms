@@ -12,12 +12,12 @@
 return [
     'name'        => 'Terms',
     'description' => 'Web application components terms',
-    'version'     => '1.0',
-    'versionDate' => '01-07-2015',
+    'version'     => '1.0.1',
+    'versionDate' => '28-09-2026',
     'author'      => 'RosGear',
     'authorUrl'   => 'https://rosgear.ru/',
     'email'       => 'info@rosgear.ru',
-    'url'         => 'https://rosgear.ru/component/rg-be-terms',
+    'url'         => 'https://rosgear.ru/component/rg-be-terms/',
     'license'     => 'The MIT License',
     'licenseUrl'  => 'https://rosgear.ru/license/#license-mit'
 ];
