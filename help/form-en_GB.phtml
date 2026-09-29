@@ -1,0 +1,25 @@
+<?php
+/**
+ * Страница "Форма добавления / редактирования термина".
+ * 
+ * Английская (британская) локализация.
+ * 
+ * Этот файл является частью модуля веб-приложения RosGear.
+ * 
+ * @copyright Copyright (c) 2015 RosGear
+ * @license https://rosgear.ru/license/
+ */
+?>
+<article>
+    <h1>Add / Edit term form</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/form.png' ?>" />
+    </div>
+    <p>The element editing form appears after clicking the <b>"Add"</b> button on the <a href="<?= $url('grid') ?>">list</a> toolbar or selecting the <b>"Edit"</b> item from the context menu of the selected record.</p>
+    <h2>Form fields</h2>
+    <ul class="g-help-list">
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Name.</b> Term name;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Component ID.</b> Unique identifier of a web application component;</li>
+        <li><span class="g-help-fld g-help-fld_combo"></span> <b>Component type.</b> The web application component type to which the term is linked is selected from the list: module, module extension, widget, plugin.</li>
+    </ul>
+</article>

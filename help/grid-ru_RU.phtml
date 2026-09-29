@@ -1,0 +1,39 @@
+<?php
+/**
+ * Страница "Список терминов".
+ * 
+ * Русская локализации.
+ * 
+ * Этот файл является частью модуля веб-приложения RosGear.
+ * 
+ * @copyright Copyright (c) 2015 RosGear
+ * @license https://rosgear.ru/license/
+ */
+?>
+<article>
+    <h1>Список терминов</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/grid.png' ?>" />
+    </div>
+    <p>Список отображает все доступные термины (terms).</p>
+    <h2>Столбцы списка</h2>
+    <ul class="g-help-list">
+        <li><b>Название.</b> Название термина;</li>
+        <li><b>Тип компонента.</b> Тип компонента веб‑приложения, к которому привязывается термин: модуль, расширение модуля, виджет, плагин;</li>
+        <li><b>Идент. компонента.</b> Уникальный идентификатор компонента веб-приложения.</li>
+    </ul>
+
+    <h2>Панель инструментов</h2>
+    <ul class="g-help-list">
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-add.svg' ?>" /> <b>Добавить.</b> Вызывает форму для добавления термина;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-delete.svg' ?>" /> <b>Удалить.</b> Удаляет выделенные термины;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/cleanup.svg' ?>" /> <b>Очистить.</b> Удаляет все термины;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Правка.</b> Вызвает форму для редактирования термина;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Выделить.</b> Выделяет или убирает выделение терминов;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Обновить.</b> Обновляет список терминов;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Профилирование записи.</b> Разворачивает или сворачивает Панель навигации для отображения информации о выбранном термине;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Скрыть / Показать.</b> Показывает или скрывает столбцы;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Справка.</b> Вызывает окно справочной информации для текущего списка;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Поиск.</b> Вызывает форму поиска записей в списке.</li>
+    </ul>
+</article>

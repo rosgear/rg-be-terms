@@ -1,0 +1,39 @@
+<?php
+/**
+ * Страница "Список терминов".
+ * 
+ * Локализации по умолчанию.
+ * 
+ * Этот файл является частью модуля веб-приложения RosGear.
+ * 
+ * @copyright Copyright (c) 2015 RosGear
+ * @license https://rosgear.ru/license/
+ */
+?>
+<article>
+    <h1>List of terms</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/grid.png' ?>" />
+    </div>
+    <p>The list displays all available terms.</p>
+    <h2>List columns</h2>
+    <ul class="g-help-list">
+        <li><b>Name.</b> Term name;</li>
+        <li><b>Component type.</b> Type of web application component to which the term is linked: module, module extension, widget, plugin;</li>
+        <li><b>Component ID.</b> Unique identifier of a web application component.</li>
+    </ul>
+
+    <h2>Toolbar</h2>
+    <ul class="g-help-list">
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-add.svg' ?>" /> <b>Add.</b> Calls up a form to add a term record;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-delete.svg' ?>" /> <b>Delete.</b> Deletes the selected term records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/cleanup.svg' ?>" /> <b>Clear.</b> Deletes all term records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Edit.</b> Calls up a form for editing a term record;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Select.</b> Selects or deselects a term entry;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Refresh.</b> Refreshes the list of records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Record profiling.</b> Expands and collapses the Navigation Panel to display information for the selected term entry;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Hide / Show.</b> Shows or hides columns;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Help.</b> Calls up the help window for the current list;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Search.</b> Calls up a form to search for records in a list.</li>
+    </ul>
+</article>

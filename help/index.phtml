@@ -1,0 +1,30 @@
+<?php
+/**
+ * Страница "Содержание".
+ * 
+ * Английская (британская) локализация.
+
+ * Этот файл является частью модуля веб-приложения RosGear.
+ * 
+ * @copyright Copyright (c) 2015 RosGear
+ * @license https://rosgear.ru/license/
+ */
+?>
+<article>
+    <h1>Terms</h1>
+    <div class="g-help-icon">
+        <img src="<?= $assetsUrl, '/images/icon.svg' ?>" />
+    </div>
+    <p>With this module, you can add new terms and edit existing ones for web application components: <a href="<?= $url('index', 'extension:rg.be.mp.mmanager') ?>">modules</a>, <a href="<?= $url('index', 'extension:rg.be.mp.emanager') ?>">module extensions</a>, <a href="<?= $url('index', 'extension:rg.be.mp.wmanager') ?>">widgets</a>, and <a href="<?= $url('index', 'extension:rg.be.mp.pmanager') ?>">plugins</a>.</p>
+    <p>A term is always linked to a specific web application component.</p>
+    <p>Each term has a unique identifier that the system uses to link the term to relevant objects (any user object) and <a href="<?= $url('index', 'module:rg.be.tags') ?>">tags</a>. This allows a single tag to be used for multiple different objects, and multiple tags to be assigned to a single object.</p>
+    <p>A term allows you to select all associated tags. This implements a flexible many-to-many relationship.</p>
+    <p><em>Why this is useful:</em><br>
+    This term system makes it easy to group and locate tags based on shared characteristics—for example, quickly selecting all tags associated with a specific content item, content category, or any user object.</p>
+
+    <h2>Content:</h2>
+    <ul class="g-help-list">
+        <li><a href="<?= $url('grid') ?>">List of terms</a></li>
+        <li><a href="<?= $url('form') ?>">Add / Edit term form</a></li>
+    </ul>
+</article>
